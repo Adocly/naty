@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(18, 67, 200, 0.795);
+}
+.cabeçalho{
+    background-color: rgba(234, 237, 246, 0.573);
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    list-style: none;
+    margin-top: 20px;
+}
+.texto{
+ margin-top: 300px;
+ margin-right: 40px;
+ margin-left: 35px;
+ text-align: center;
+ 
+}
+#fotonaty{
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#sobre1{
+    font-size: 35px;
+    font-family:  Arial;
+    cursor: pointer;
+    gap: 10%;
+    
+}
+
+#sobre1:hover{
+    transition: 0,15s;
+    color: rgb(4, 4, 247);
+}
+#projetos2{
+    font-size: 35px;
+    font-family:  Arial;
+    cursor: pointer;
+    margin-top: 25px;
+   
+   
+}
+#projetos2:hover{
+    transition: 0,15s;
+    color: rgb(4, 4, 247);
+}
+
+#tecnologias3{
+    font-size: 35px;
+    font-family:  Arial;
+    cursor: pointer;
+    margin-top: 25px;
+ 
+}
+#tecnologias3:hover{
+    transition: 0,15s;
+    color: rgb(4, 4, 247);
+}
+.fotosobre{
+    display: flex;
+    justify-content: space-around;
+}
+#textosobre{
+    text-align: justify;
+    font-size: 40px;
+    
+}
+#titulo{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#projetos{
+    border: solid 3px black;
+    width: 100%;
+    height: 60px; 
+    background-color: rgba(234, 237, 246, 0.573);
+    margin-top: 10%;
+    color: rgba(0, 68, 255, 0.795);
+   text-align: center;
+   }
+
+   .fotos{
+    display: flex;
+    flex-direction: column;
+}
+.projetosimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.projetosimg img{
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-left: 1%;
+    width: 23%;
+    height: 300px;
+}
+.projetosimg img:hover{
+    transition: 0.5s;
+    width: 23.5%;
+    height: 310px;
+}
+#tituloadocly{
+    font-size: 50px;
+    text-align: center;
+}
+#adoclytexto{
+    font-size: 35px;
+    text-align: justify;
+}
+.adocly{
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#tecnologias1{
+    border: solid 3px black;
+    width: 100%;
+    height: 60px; 
+    background-color: rgba(234, 237, 246, 0.573);
+    margin-top: 10%;
+    color: rgba(0, 68, 255, 0.795);
+   text-align: center;
+}
+#tecnologiasimg{
+    margin-top: 7%;
+    
+}
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+}
+.imgtecnologia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.redesociais{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 15%;
+}
+.github a{
+margin-left: 30px;
+}
